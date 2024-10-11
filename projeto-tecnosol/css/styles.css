@@ -34,7 +34,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #e6a756;
+  --bs-primary: #449ff5;
   --bs-secondary: #2F170F;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -97,11 +97,15 @@ body {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
+  color: white;
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.text-faded-footer {
+  color: white;
 }
 
 hr {
@@ -8036,7 +8040,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #150578 !important;
 }
 
 .text-secondary {
@@ -10826,7 +10830,9 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg.jpg");
+  /*background: linear-gradient(to bottom, #88CBF5, #D9F0FF);*/
+  /*background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/background1.jpeg");*/
+  background-color: rgba(var(--bs-dark-rgb));
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -10837,7 +10843,7 @@ p {
 }
 
 .text-faded {
-  color: #f6e1c5;
+  color: #150578;
 }
 
 .site-heading {
@@ -10854,7 +10860,7 @@ p {
 }
 .site-heading .site-heading-lower {
   font-size: 5rem;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 4rem;
 }
 
@@ -10878,7 +10884,7 @@ p {
 }
 
 .bg-faded {
-  background-color: #f6e1c5;
+  background-color: var(--bs-red);
 }
 
 .btn-xl {
@@ -10891,11 +10897,11 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: #150578;
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: white;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.7);
@@ -10935,7 +10941,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgb(129 35 35 / 90%);
 }
 .cta .cta-inner {
   position: relative;
@@ -10955,7 +10961,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: #150578;
 }
 
 .intro {
