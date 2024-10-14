@@ -681,6 +681,7 @@ progress {
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 .row > * {
+  background-color: #b72630;
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
