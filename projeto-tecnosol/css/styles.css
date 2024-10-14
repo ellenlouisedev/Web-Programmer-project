@@ -8040,7 +8040,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgb(130 0 171) !important;
 }
 
 .text-secondary {
@@ -10841,7 +10841,7 @@ p {
 }
 
 .text-faded {
-  color: #150578;
+  color: #b50000
 }
 
 .site-heading {
@@ -10895,7 +10895,7 @@ p {
 }
 
 #mainNav {
-  background-color: var(--bs-red);
+  background-color: #9b0000;;
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
@@ -10939,7 +10939,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgb(85 0 0 / 90%);
 }
 .cta .cta-inner {
   position: relative;
@@ -10959,7 +10959,7 @@ p {
 }
 
 .footer {
-  background-color: #150578;
+  background-color: #780505
 }
 
 .intro {
