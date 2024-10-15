@@ -7557,6 +7557,7 @@ textarea.form-control-lg {
 }
 
 .mx-auto {
+  border-radius: var(--bs-border-radius);
   margin-right: auto !important;
   margin-left: auto !important;
 }
@@ -10938,8 +10939,8 @@ p {
 }
 
 .cta {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: rgb(85 0 0 / 90%);
 }
 .cta .cta-inner {
