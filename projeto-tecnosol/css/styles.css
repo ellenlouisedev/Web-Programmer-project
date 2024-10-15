@@ -681,6 +681,7 @@ progress {
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 .row > * {
+  background-color: #b72630;
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
@@ -7556,6 +7557,7 @@ textarea.form-control-lg {
 }
 
 .mx-auto {
+  border-radius: var(--bs-border-radius);
   margin-right: auto !important;
   margin-left: auto !important;
 }
@@ -8156,7 +8158,7 @@ textarea.form-control-lg {
 
 .bg-danger {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #b72630 !important;
 }
 
 .bg-light {
@@ -10882,7 +10884,7 @@ p {
 }
 
 .bg-faded {
-  background-color: var(--bs-red);
+  background-color: #b72630;
 }
 
 .btn-xl {
@@ -10937,8 +10939,8 @@ p {
 }
 
 .cta {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: rgb(85 0 0 / 90%);
 }
 .cta .cta-inner {
